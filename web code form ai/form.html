@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reverse Text Form</title>
+</head>
+<body>
+    <h1>Reverse Text Form</h1>
+    <form id="textForm">
+        <label for="textInput">Enter Text:</label>
+        <input type="text" id="textInput" name="textInput">
+        <input type="button" value="Submit" onclick="reverseText()">
+    </form>
+    <div id="reversedText"></div>
+
+    <script>
+        function reverseText() {
+            // Get the input text
+            const inputText = document.getElementById('textInput').value;
+
+            // Reverse the input text
+            const reversedText = inputText.split('').reverse().join('');
+
+            // Display the reversed text
+            document.getElementById('reversedText').textContent = "Reversed Text: " + reversedText;
+        }
+    </script>
+</body>
+</html>
