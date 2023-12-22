@@ -1,0 +1,81 @@
+Collecting easyocr
+  Using cached easyocr-1.7.1-py3-none-any.whl.metadata (11 kB)
+INFO: pip is looking at multiple versions of easyocr to determine which version is compatible with other requirements. This could take a while.
+  Using cached easyocr-1.7.0-py3-none-any.whl.metadata (14 kB)
+  Using cached easyocr-1.6.2-py3-none-any.whl (2.9 MB)
+  Using cached easyocr-1.6.1-py3-none-any.whl (2.9 MB)
+  Using cached easyocr-1.6.0-py3-none-any.whl (21.0 MB)
+  Using cached easyocr-1.5.0-py3-none-any.whl (70.8 MB)
+  Using cached easyocr-1.4.2-py3-none-any.whl (70.8 MB)
+  Using cached easyocr-1.4.1-py3-none-any.whl (63.6 MB)
+INFO: pip is still looking at multiple versions of easyocr to determine which version is compatible with other requirements. This could take a while.
+  Using cached easyocr-1.4-py3-none-any.whl (63.6 MB)
+  Using cached easyocr-1.3.2-py3-none-any.whl (63.2 MB)
+  Using cached easyocr-1.3.1-py3-none-any.whl (63.2 MB)
+  Using cached easyocr-1.3.0.1-py3-none-any.whl (63.0 MB)
+  Using cached easyocr-1.3-py3-none-any.whl (63.0 MB)
+INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. See https://pip.pypa.io/warnings/backtracking for guidance. If you want to abort this run, press Ctrl + C.
+  Using cached easyocr-1.2.5.1-py3-none-any.whl (62.3 MB)
+  Using cached easyocr-1.2.5-py3-none-any.whl (62.3 MB)
+  Using cached easyocr-1.2.4-py3-none-any.whl (62.3 MB)
+  Using cached easyocr-1.2.3-py3-none-any.whl (62.3 MB)
+  Using cached easyocr-1.2.2-py3-none-any.whl (62.3 MB)
+  Using cached easyocr-1.2.1-py3-none-any.whl (57.2 MB)
+  Using cached easyocr-1.2-py3-none-any.whl (57.2 MB)
+  Using cached easyocr-1.1.10-py3-none-any.whl (48.9 MB)
+  Using cached easyocr-1.1.9-py3-none-any.whl (48.4 MB)
+  Using cached easyocr-1.1.8-py3-none-any.whl (48.4 MB)
+  Using cached easyocr-1.1.7-py3-none-any.whl (48.4 MB)
+  Using cached easyocr-1.1.6-py3-none-any.whl (48.4 MB)
+  Using cached easyocr-1.1.5-py3-none-any.whl (43.1 MB)
+  Using cached easyocr-1.1.4-py3-none-any.whl (22.5 MB)
+  Using cached easyocr-1.1.3-py3-none-any.whl (13.5 MB)
+  Using cached easyocr-1.1.2-py3-none-any.whl (8.8 MB)
+  Using cached easyocr-1.1.1-py3-none-any.whl (8.5 MB)
+  Using cached easyocr-1.1-py3-none-any.whl (8.5 MB)
+  Using cached easyocr-1.0.tar.gz (8.5 MB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+
+The conflict is caused by:
+    easyocr 1.7.1 depends on torch
+    easyocr 1.7.0 depends on torch
+    easyocr 1.6.2 depends on torch
+    easyocr 1.6.1 depends on torch
+    easyocr 1.6.0 depends on torch
+    easyocr 1.5.0 depends on torch
+    easyocr 1.4.2 depends on torch
+    easyocr 1.4.1 depends on torch
+    easyocr 1.4 depends on torch
+    easyocr 1.3.2 depends on torch
+    easyocr 1.3.1 depends on torch
+    easyocr 1.3.0.1 depends on torch
+    easyocr 1.3 depends on torch
+    easyocr 1.2.5.1 depends on torch
+    easyocr 1.2.5 depends on torch
+    easyocr 1.2.4 depends on torch
+    easyocr 1.2.3 depends on torch
+    easyocr 1.2.2 depends on torch
+    easyocr 1.2.1 depends on torch
+    easyocr 1.2 depends on torch
+    easyocr 1.1.10 depends on torch
+    easyocr 1.1.9 depends on torch
+    easyocr 1.1.8 depends on torch
+    easyocr 1.1.7 depends on torch
+    easyocr 1.1.6 depends on torch
+    easyocr 1.1.5 depends on torch
+    easyocr 1.1.4 depends on torch
+    easyocr 1.1.3 depends on torch
+    easyocr 1.1.2 depends on torch
+    easyocr 1.1.1 depends on torch
+    easyocr 1.1 depends on torch
+    easyocr 1.0 depends on torch
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip attempt to solve the dependency conflict
+
