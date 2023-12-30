@@ -28,7 +28,8 @@ class handDetector():
                 #     cx,cy=int(lm.x*w),int(lm.y*h)
                 #     if id==4:
                 #         cv2.circle(img,(cx,cy),15,(255,0,255),cv2.FILLED)
-    
+    def findPositions(self,img,handNo=0,draw=True):
+        pass
 def main():
     pTime=0
     CTime=0
